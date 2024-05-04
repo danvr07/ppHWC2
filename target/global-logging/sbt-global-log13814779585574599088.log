@@ -1,0 +1,133 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.9.4 (Homebrew Java 21.0.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 34.555792ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 27.615416ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.085875ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/dan/Desktop/ppTema2/skel2/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/dan/Desktop/ppTema2/skel2/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 5.582292 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(skel2-build) took 19.266583ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id skel2-build, base: /Users/dan/Desktop/ppTema2/skel2/project, plugins: List(<none>))) took 34.967709ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/dan/Desktop/ppTema2/skel2/project, returning: (skel2-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 42.224125ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.077042ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/Users/dan/Desktop/ppTema2/skel2/project/, ...) took 71.89625ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 274.562875ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 2.093417ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 23.907042ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 2.543666ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 187.19875ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 42.005292ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.636042ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /Users/dan/Desktop/ppTema2/skel2/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 976.598083ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.002042ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/dan/Desktop/ppTema2/skel2[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 2.534792ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining [0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.8435 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 1.769ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: /Users/dan/Desktop/ppTema2/skel2, plugins: List(<none>))) took 3.007917ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/dan/Desktop/ppTema2/skel2, returning: (root)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 69.282375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 1.693834ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/Users/dan/Desktop/ppTema2/skel2/, ...) took 1048.109625ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 1054.382292ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.069666ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 6.707542ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.324292ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 61.482917ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 17.169375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.001542ms[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to t2 (in build file:/Users/dan/Desktop/ppTema2/skel2/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/dan/Desktop/ppTema2/skel2/target/scala-3.3.1/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestTable:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mapply[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtoString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfilter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdelete[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minsert[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msort[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mselect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mupdate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestDatabase:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcreate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mselect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdrop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mindexing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjoin[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestFilter:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mimplicit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msyntactic sugars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32meval[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 8[0m[0m

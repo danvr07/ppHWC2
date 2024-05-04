@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/dan/Desktop/ppTema2/skel2/src/test/scala/TestSQL.scala:333:39 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m333 |[0m      [33mval[0m [36mres[0m: [35mOption[0m[[35mTable[0m] = Queries.youngAdultHobbiesJ(Utils.db1)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                               ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m            value youngAdultHobbiesJ is not a member of object Queries[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

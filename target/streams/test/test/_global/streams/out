@@ -1,0 +1,91 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestSQL, org.scalatest.tools.Framework$$anon$1@342e56d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestTable, org.scalatest.tools.Framework$$anon$1@342e56d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDatabase, org.scalatest.tools.Framework$$anon$1@342e56d6, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestFilter, org.scalatest.tools.Framework$$anon$1@342e56d6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestFilter:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mimplicit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msyntactic sugars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32meval[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestDatabase:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcreate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mselect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdrop[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mindexing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjoin[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestTable:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mapply[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtoString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfilter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdelete[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minsert[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msort[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mselect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mupdate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTestSQL:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTDA DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTDA Table[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mimplicits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mprettier language[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mkillJackSparrow[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minsertLinesThenSort[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32myoungAdultHobbiesJ[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 179 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 50[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 50, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestSQL[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestDatabase[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestFilter[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestTable[0m
