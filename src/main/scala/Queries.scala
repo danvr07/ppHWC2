@@ -19,39 +19,4 @@ object Queries {
       .flatMap(newDB => queryT(PP_SQL_Table_Sort(Some(newDB), "SORT", "age")))
 
   def youngAdultHobbiesJ(db: Database): Option[Table] = queryT(PP_SQL_Table_Select(queryT(PP_SQL_Table_Filter(queryT(PP_SQL_Table_Select_one_table(queryDB(PP_SQL_DB_Join(Some(db), "JOIN", "People", "name", "Hobbies", "name")), "SELECTTABLE", "joined")), "FILTER", row => Some(row("age") < "25" && row("age") >= "1" && row("name").startsWith("J")))), "EXTRACT", List("name", "hobby")))
-
-  //queryT(PP_SQL_Table_Filter(queryT(PP_SQL_Table_Select_one_table(queryDB(PP_SQL_DB_Join(Some(db), "JOIN", "People", "name", "Hobbies", "name")), "SELECTTABLE", "joined")), "FILTER", row => Some(row("age")  < "25" && row("age") > "1" &&  row("name").startsWith("J")))
-
-  //def youngAdultHobbiesJ(db: Database): Option[Table] =
-  //  queryT(
-  //    PP_SQL_Table_Filter(
-  //      queryT(
-  //        PP_SQL_Table_Select_one_table(
-  //          queryDB(
-  //            PP_SQL_DB_Join(Some(db), "JOIN", "People", "name", "Hobbies", "name")
-  //          ),
-  //          "SELECTTABLE",
-  //          "joined"
-  //        )
-  //      ),
-  //      "FILTER",
-  //      row => Some(row("age") < "25" && row("age") > "1" && row("name").startsWith("J"))
-  //    )
-  //  )
-  //    queryT(
-  //      PP_SQL_Table_Filter(
-  //        queryT(
-  //          PP_SQL_Table_Select_one_table(
-  //            queryDB(PP_SQL_DB_Join(Some(db), "JOIN", "People", "name", "Hobbies", "name")),
-  //            "SELECTTABLE",
-  //            "joined"
-  //          )
-  //        ),
-  //        "FILTER",
-  //        row => Some(row("age").toInt < 25 && row("name").startsWith("J") && row.contains("hobby"))
-  //      )
-  //    )
-  //  def youngAdultHobbiesJ(db: Database): Option[Table] = queryT(PP_SQL_Table_Filter(queryT(PP_SQL_Table_Select_one_table(queryDB(PP_SQL_DB_Join(Some(db), "JOIN", "People", "name", "Hobbies", "name")), "SELECTTABLE", "joined")), "FILTER", row => Some(row("age").toInt < 25)))
-
-
 }
