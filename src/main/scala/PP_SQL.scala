@@ -93,7 +93,7 @@ trait PP_SQL_Table {
 
 case class InsertRow(table: Table, values: Tabular) extends PP_SQL_Table {
   def eval: Option[Table] = {
-    val updatedTable = table.insert(values.head)
+    val updatedTable = values.foldLeft(table)((accTable, row) => accTable.insert(row))
     Some(updatedTable)
   }
 }
