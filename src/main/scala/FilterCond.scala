@@ -61,7 +61,7 @@ case class All(fs: List[FilterCond]) extends FilterCond {
     // Evaluăm fiecare condiție și verificăm dacă toate sunt satisfăcute
     val results = fs.map(_.eval(r))
 
-    // Dacă există cel puțin o condiție care nu este satisfăcută, returnăm None
+    // Dacă există cel puțin o condiție care nu este satisfăcută, returnăm false
     if (results.isEmpty || results.exists(_.contains(false))) {
       Some(false)
     } else {

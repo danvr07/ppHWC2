@@ -77,8 +77,10 @@ object Table {
 
 
   extension (table: Table) {
-    def columns: List[String] = table.tableData.headOption.map(_.keys.toList).getOrElse(List.empty)
+    // am definit rows ca metoda de extensie
+    // pentru a putea fi folosite in cadrul unui context Table
     def rows: List[Row] = table.tableData
+
     def todo(index: Int): Option[Row] = {
       if (index >= 0 && index < table.tableData.length) {
         Some(table.tableData(index))
@@ -86,7 +88,5 @@ object Table {
         None
       }
     }
-
-
   }
 }

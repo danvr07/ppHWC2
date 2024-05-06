@@ -38,15 +38,15 @@ case class SelectTables(database: Database, tableNames: List[String]) extends PP
     Some(database.copy(tables = newTables))
   }
 }
-//****
 
+// metoda pentru selectarea unei singure tabele
 case class SelectTables_one_table(database: Database, tableName: String) extends PP_SQL_Table {
   def eval: Option[Table] = {
-    val table = database.tables.find(_.name == tableName)
+    val table = database.findTable(tableName)
     Some(table.get)
   }
 }
-//****
+
 
 implicit def PP_SQL_DB_Select(t: (Option[Database], String, List[String])): Option[PP_SQL_DB] = {
   t match {
@@ -54,18 +54,17 @@ implicit def PP_SQL_DB_Select(t: (Option[Database], String, List[String])): Opti
     case _ => None
   }
 }
-//****
+
+// Query pentru selectarea unei singure tabele
 implicit def PP_SQL_Table_Select_one_table(t: (Option[Database], String, String)): Option[PP_SQL_Table] = {
   t match {
     case (Some(db), "SELECTTABLE", tableName) => Some(SelectTables_one_table(db, tableName))
     case _ => None
   }
 }
-//****
 
 case class JoinTables(database: Database, table1: String, column1: String, table2: String, column2: String) extends PP_SQL_DB {
   def eval: Option[Database] = {
-
 
     // Unim tabelele folosind funcția join din obiectul Database
     val joinedTable = database.join(table1, column1, table2, column2)
@@ -183,6 +182,7 @@ def queryT(p: Option[PP_SQL_Table]): Option[Table] = {
     case None => None
   }
 }
+
 def queryDB(p: Option[PP_SQL_DB]): Option[Database] = {
   p match {
     case Some(pp) => pp.eval
